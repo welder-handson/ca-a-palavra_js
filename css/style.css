@@ -1,0 +1,19 @@
+.tabela{
+    margin-left: 22%;
+    margin-top: 5%;
+    background-color: #303030;
+    width: 700px;
+    height: 500px;
+    color: white;
+    position: absolute;
+}
+body{
+    background-color: black;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 31%;
+    color: white;
+    width: 500px;
+    height: 1px;
+}

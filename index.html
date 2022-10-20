@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"> 
+</head>
+<body>
+ 
+<div class="text">
+    sukuna-aizen-fallow-obito-eren-freeza-hades-doflamingo-muzan-kira
+</div>
+<div class="tabela">
+<table border="1px" #000000 width="700" height="500" >
+    <script>
+    matriz = new Array;
+    matriz = [["T","O","B","I","T","O","N","E","F","D",],["S","K","O","B","I","T","A","N","Z","O",],["U","E","C","A","R","I","N","A","E","F",],["K","R","F","F","R","E","E","Z","A","L",],["U","E","T","A","T","F","G","U","L","A",],["N","N","G","L","L","N","D","M","K","M",],["A","G","Y","L","N","N","D","K","K","I",],["D","A","G","O","T","K","I","R","A","N",],["T","F","N","W","E","T","R","G","D","G",],["N","G","L","F","A","I","Z","E","N","O",],["H","A","D","E","S","R","H","M","B","P",]]
+
+    binário = new Array;
+
+    binário = [["0","1","1","1","1","1","0","0","0","1",],["1","0","0","0","0","0","0","1","0","1",],["1","1","0","0","0","0","0","1","0","1",],["1","1","0","1","1","1","1","1","1","1",],["1","1","0","1","0","0","0","1","0","1",],["1","1","0","1","0","0","0","1","0","1",],["1","0","0","1","0","0","0","0","0","1",],["0","0","0","1","0","1","1","1","1","1",],["0","0","0","1","0","0","0","0","0","1",],["0","0","0","0","1","1","1","1","1","1",],["1","1","1","1","1","0","0","0","0","0",]]
+
+
+        for(linha=0; linha<11; linha++){
+        document.write("<tr>");
+            for(coluna=0; coluna<10; coluna++){
+               if(binário[linha][coluna] == 1){  
+                document.write("<td align='center' bgcolor='DeepSkyBlue	'>" + matriz[linha][coluna] + "</td>") 
+            }
+            else{
+                document.write("<td align='center'>" + matriz[linha][coluna] + "</td>")
+            }
+            }
+        document.write("</tr>")
+        }
+    </script>
+</table>
+</div>
+
+</body>
+</html>
